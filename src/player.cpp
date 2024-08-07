@@ -5,7 +5,7 @@ Player::Player(int gridX, int gridY) {
     x = gridX;
     y = gridY;
     shape.setSize(sf::Vector2f(8, 8));  // Assuming CELL_SIZE is 8
-    shape.setFillColor(sf::Color::Green);
+    shape.setFillColor(sf::Color::White);
     shape.setPosition(x * 8, y * 8);  // Assuming CELL_SIZE is 8
 }
 
